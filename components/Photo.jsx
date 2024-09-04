@@ -20,7 +20,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[230px] h-[230px] xl:w-[430px] xl:h-[430px] mix-blend-lighten absolute"
+          className="w-[180px] h-[180px] xl:w-[300px] xl:h-[300px] mix-blend-lighten absolute"
           style={{ borderRadius: "50%", overflow: "hidden", border: "10px solid black"}}
         >
           <Image
@@ -35,7 +35,7 @@ const Photo = () => {
 
         {/* circle */}
         <motion.svg
-          className="w-[232px] xl:w-[432px] h-[232px] xl:h-[432px]"
+          className="w-[182px] xl:w-[302px] h-[182px] xl:h-[302px]"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"

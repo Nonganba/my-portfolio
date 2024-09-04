@@ -6,6 +6,8 @@ import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
+const resumeLink = "https://drive.google.com/drive/u/0/folders/1mD-MxfCx0xp_KtmEK0teggO_hk1mndcu";
+
 const Home = () => {
   return (
     <section className="h-full">
@@ -16,7 +18,7 @@ const Home = () => {
             <span className="text-xl">Software Engineer</span>
             <h1 className="h1">
               Hello I'm <br />
-              <span className="text-accent">Th Nonganba Singha</span>
+              <span className="text-accent">Nonganba Th</span>
             </h1>
             <p className="max-w-[500px] mb-9 test0white/80">
               I excel at crafting elegant digital experiences and I am
@@ -24,14 +26,16 @@ const Home = () => {
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <a href={resumeLink} target="_blank" rel="noopener noreferrer">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+                </a>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-8"

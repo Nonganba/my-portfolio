@@ -8,8 +8,8 @@ import {
 } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedinIn />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/Nonganba" },
+  { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/nonganba-th-171365191/" },
   { icon: <FaFacebook />, path: "" },
   { icon: <FaInstagram />, path: "" },
 ];
@@ -19,9 +19,9 @@ const Socials = ({ containerStyles, iconStyles }) => {
     <div className={containerStyles}>
       {socials.map((item, index) => {
         return (
-          <Link key={index} href={item.path} className={iconStyles}>
+          <a key={index} href={item.path} className={iconStyles} target="_blank" rel="noopener noreferrer">
             {item.icon}
-          </Link>
+          </a>
         );
       })}
     </div>

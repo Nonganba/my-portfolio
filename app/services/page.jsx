@@ -10,14 +10,14 @@ const services = [
     title: "Frontend Engineering",
     description:
       "Skilled in creating responsive, interactive user interfaces using ReactJS and Next.js. Proficient in state management with Redux and Context API, styling with Tailwind CSS, Material UI and Styled-components. Experienced in building scalable, user-friendly applications.",
-    href: "",
+    href: "/contact",
   },
   {
     num: "02",
     title: "Backend Engineering",
     description:
       "Proficient in building scalable backend solutions using Node.js and Express.js. Skilled in database management with SQL and MongoDB, creating RESTful APIs, and integrating GraphQL for efficient data handling. Focused on performance optimization, security, and seamless server-side functionalities.",
-    href: "",
+    href: "/contact",
   },
 ];
 
